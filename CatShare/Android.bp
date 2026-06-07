@@ -1,0 +1,20 @@
+android_app_import {
+    name: "CatShare",
+    apk: "CatShare.apk",
+    presigned: false, 
+    preprocessed: false,
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    system_ext_specific: true,
+    required: ["privapp-permissions-catshare.xml"],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-catshare.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "privapp-permissions-catshare.xml",
+    filename_from_src: true,
+}

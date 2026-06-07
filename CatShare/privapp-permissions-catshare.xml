@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="moe.reimu.catshare">
+        <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+        <permission name="android.permission.NEARBY_WIFI_DEVICES"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+        <permission name="android.permission.ACCESS_WIFI_STATE"/>
+        <permission name="android.permission.CHANGE_WIFI_STATE"/>
+        <permission name="android.permission.BLUETOOTH"/>
+        <permission name="android.permission.BLUETOOTH_ADMIN"/>
+        <permission name="android.permission.BLUETOOTH_SCAN"/>
+        <permission name="android.permission.BLUETOOTH_ADVERTISE"/>
+        <permission name="android.permission.BLUETOOTH_CONNECT"/>
+        <permission name="android.permission.FOREGROUND_SERVICE"/>
+        <permission name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+        <permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+        <permission name="android.permission.POST_NOTIFICATIONS"/>
+        <permission name="moe.reimu.catshare.INTERNAL_BROADCASTS"/>
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    </privapp-permissions>
+</permissions>
